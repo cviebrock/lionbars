@@ -94,7 +94,7 @@
 		});
 		$(document).mouseup(function(e) {
 			if (HDragging || VDragging) {
-				activeWrap.parent().find('.lb-v-scrollbar, .lb-h-scrollbar').fadeOut(150);
+				// activeWrap.parent().find('.lb-v-scrollbar, .lb-h-scrollbar').fadeOut(150);
 				if (VDragging) {
 					VDragging = false;
 				}
